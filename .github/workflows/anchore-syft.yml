@@ -34,6 +34,5 @@ jobs:
       uses: anchore/sbom-action@v0
       with:
         path: ./src/
-        artifact-name: shapes-2-sbom.json
-        format: cyclonedx-json
+        artifact-name: src.spdx.json
         dependency-snapshot: true
